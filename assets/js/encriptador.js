@@ -64,7 +64,7 @@ const desencriptar = (desencriptandoString) => {
 }
 
 
-const btnCopiar = () => {
+function btnCopiar(){
     mensaje.select()
     navigator.clipboard.writeText(mensaje.value)
     alert("Texto copiado!!!")
